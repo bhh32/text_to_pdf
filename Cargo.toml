@@ -2,6 +2,8 @@
 name = "text_to_pdf"
 version = "0.1.0"
 edition = "2024"
+description = "A simple CLI tool to convert text files to PDF. Example Usage: text_to_pdf -f input.txt -f other_input.txt"
+license = "GPL-3.0"
 
 [dependencies]
 clap = { version = "4.5.35", features = ["derive"] }
